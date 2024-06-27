@@ -10,6 +10,19 @@
 <body>
     <h1>Bookmark Website</h1>
 
+    <form>
+        <label for="title">Website Title</label>
+        <input type="text" id="title" placeholder="Type Title"/>
+        <br/>
+        <label for="link">Website Link</label>
+        <input type="link" id="link" placeholder="Type Link"/>
+        <br/>
+        <button type="submit" onclick="addLink()">Add</button>
+    </form>
+    <div>
+        <h3>All Bookmark</h3>
+        <div id="linkList"></div>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
